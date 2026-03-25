@@ -14,8 +14,8 @@ metadata:
   namespace: roboshop
   name: roboshop-trainee
 subjects:
-- kind: Group
-  name: roboshop-trainee
+- kind: User
+  name: suresh
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role 
